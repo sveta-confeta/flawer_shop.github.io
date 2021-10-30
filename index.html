@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+        <nav class="nav">
+            <ul class="header-menu">
+                <li class="header-menu_item"><a href="#">Каталог</a></li>
+                <li class="header-menu_item"><a href="#">Доставка и оплата</a></li>
+                <li class="header-menu_item"><a href="#">Отзывы</a></li>
+        
+                <li  class="header-menu_item"><a href="#">Спецпредложения</a></li>
+                <li  class="header-menu_item"><a href="#">Контакты</a></li>
+                <li  class="header-menu_item"><a href="#">Корзина</a></li>
+            </ul>
+        </nav>
+        <img  src="./img/content/logo.svg" alt="Логотип Botanika" class="logo">
+        <button class="humburger-menu" aria-label="Бургер меню"> 
+        </button> <!--мобильный  элемент--> 
+       
+        </div>
+    </header>
+    <main>
+        <div class="container">
+        <section class="promo">
+            <div class="promo-wrapper">
+                <h1 class="promo-title">Авторские букеты <br> <span>в Петербурге</span></h1>
+                <h3 class="promo-info">Оригинальные свежие букеты с доставкой по всему городу</h3>   
+                <a class="button promo-button-link" href="#">Cмотреть каталог</a> 
+            </div>
+            <img  class="promo-img" src="./img/content/main1.jpg" alt="букет тюльпанов">
+            <img class="promo-img-two" src="./img/content/main2.jpg" alt="букет роз">
+        </section>
+        <section class="delivery">
+            <ul class="delivery-wrapper">
+                <li class="item item1">
+                    <h4>Быстрая доставка</h4>
+                    <p>Можем собрать букет и передать его в доставку всего за час.</p>
+                </li>
+                <li  class="item item2">
+                    <h4>Всегда свежие цветы</h4>
+                    <p>Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</p>
+                </li>
+                <li  class="item item3">
+                    <h4>Отправляем фото цветов</h4>
+                    <p>Перед доставкой сделаем фотографию букета и отправим вам.</p>
+
+                </li>
+            </ul>
+         </section>   
+        </section>
+        <section class="sliders">
+            <h2 class="slider-title">Популярные букеты</h2>
+            <div class="swiper"> <!--общий класс для всех слайдеров с кнопками-->
+             <div class="swiper-wrapper">
+               <div class=" swiper-slide">
+                <div class="slider-column">
+                    <h3 class="slider-promo">Букет «Нежность»</h3>
+                    <p class="slider-text">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+                    <span class="slider-size">30 × 40 см</span>
+                    <span class="slider-price"> 3600 руб. </span>
+                    <button class="button slider-btn">Заказать</button>
+                </div>
+                <img src="./img/content/slider.png" alt="букет цветов"> 
+               </div>
+
+               <div class=" swiper-slide">
+                <div class="slider-column">
+                    <h3 class="slider-promo">Букет «Нежность»</h3>
+                    <p class="slider-text">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+                    <span class="slider-size">30 × 40 см</span>
+                    <span class="slider-price"> 3600 руб. </span>
+                    <button class="button slider-btn">Заказать</button>
+                </div>
+                <img src="./img/content/slider.png" alt="букет цветов"> 
+              </div> 
+
+               <div class=" swiper-slide">
+                <div class="slider-column">
+                    <h3 class="slider-promo">Букет «Нежность»</h3>
+                    <p class="slider-text">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+                    <span class="slider-size">30 × 40 см</span>
+                    <span class="slider-price"> 3600 руб. </span>
+                    <button class="button slider-btn">Заказать</button>
+                </div>
+                <img src="./img/content/slider.png" alt="букет цветов"> 
+               </div>
+            </div> <!--//swiper-wrapper-->
+            <div class="slider-buttons">
+                 <button type="button" class="swiper-button-next"> <img src="./img/content/Arrow 2.svg"> </button>
+                 <button type="button" class="swiper-button-prev"><img src="./img/content/Arrow 1.svg"></button>
+            </div>
+        </div> <!--//swiper-->
+        </section>
+        <section class="gallery">
+            <div class="gallery-image-wrapper">
+                <img  class="gallery-image" src="./img/content/gallery1.jpg" alt="садебный букет">
+               
+                <a  class="gallery-link" href="#">
+                    <h3 class="gallery-title">Свадебные букеты</h3>
+                    <p class="gallery-text">Букеты для невест</p>
+                </a>
+            </div>
+            <div class="gallery-image-wrapper">
+                <img  class="gallery-image" src="./img/content/gallery2.jpg" alt="букет с пионами">
+                
+                <a class="gallery-link" href="#">
+                    <h3 class="gallery-title">Букеты с пионами</h3>
+                    <p class="gallery-text">Букеты с сезонными пионами</p>
+                </a>    
+            </div>
+            <div class="gallery-image-wrapper">
+                <img class="gallery-image" src="./img/content/gallery3.jpg" alt="девушка закрывает лицо букетом">
+                <a class="gallery-link" href="#">
+                    <h3 class="gallery-title">Выбрать букет</h3>
+                    <p class="gallery-text">Букеты в ассортименте</p>
+                </a>    
+            </div>
+        </section>
+        <section class="discount">
+            <div class="discount-wrapper">
+                <h2 class="discount-title">Скидка 10% на первый заказ</h2>
+                <p class="discount-text">Если заказываете у нас букет впервые
+                 — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
+            </div>    
+            <img class="discount-img" src="./img/content/florist-makes-beautiful-bouquet-studio 1.jpg" alt="букет цветов">     
+        </section>
+
+        <section class="order">
+            <h2 class="order-title">4 шага к идеальному букету</h2>
+            <ul class="order-wrapper">
+                <li class=" elem order-elem1">
+                    <h4>Заказ</h4>
+                    <p class="order-text">Выбирите понравившейся букет из каталога и оформите заказ</p>
+                </li>
+                <li class="elem order-elem2">
+                    <h4>Уточнение деталей</h4>
+                    <p class="order-text">Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</p>
+                </li>
+                <li class="elem order-elem3">
+                    <h4>Оплата</h4>
+                    <p class="order-text">Оплатить заказ можно онлайн
+                        на сайте или при получении</p>
+                </li>
+                <li class="elem order-elem4">
+                    <h4>Доставка</h4>
+                    <p class="order-text">Курьер позвонит за час до прибытия и доставит заказ вовремя</p>
+                </li>
+            </ul>
+        </section>
+        <section class="news">
+            <div class="news-wrapper">
+                <h3 class="news-title">Следите за нашими новостями</h2>
+                <h4 class="news-info">Подписывайтесь на наши соцсети и узнавайте
+                о новинках и акциях первым.</h4>
+                <div class="icon-group">
+                    <a href="#"><img src="./img/content/instagram_icon.svg" alt="ссылка на instagram"></a>
+                    <a href="#"><img src="./img/content/facebook_icon.svg" alt="ссылка на facebook"></a>
+                 <a href="#"><img src="./img/content/twitter_icon.svg" alt="ссылка на twitter"></a>
+                </div>   
+            </div>
+        
+                <img class="mal1" src="./img/content/mal1.jpg" alt="букет цветов">
+                <img class="mal2" src="./img/content/mal2.jpg" alt="букет цветов">
+                <img  class="bol" src="./img/content/bol.jpg" alt="букет цветов">
+    
+        </section>
+        <section class="review">
+            <h3 class="review-title">Отзывы</h3>
+            <div class="review-wrapper">
+                <blockquote>
+                <p class="review-text">Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!</p>
+                    <site>Марина</site>
+                 </blockquote>
+                <blockquote>
+                    <p class="review-text">Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень понравился, буду ещё заказывать!</p>
+                <site>Татьяна</site>
+                </blockquote>
+                <blockquote>
+                    <p class="review-text">Выбор букетов на любой вкус
+                    и цену. Бывают хорошие скидки,
+                    а флористы всегда помогут и точно соберут красивый букет!</p>
+                    <site>Ольга</site>
+                </blockquote>
+            </div>
+            
+        </section>
+    </div>
+    <!--//container-->
+        <section class="contact">
+                <div class="map-box" style="width: 100%; height:100%"><iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=ru&amp;q=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%20%D1%83%D0%BB.%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F%20%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B4.%2019+(Botanica%20)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+            
+            <div class="container">
+                <ul class="contact_wrapper">
+                    <button class="contact-humburger-menu" aria-label="Бургер меню"> 
+                    </button> <!--мобильный  элемент--> 
+               <li class="contact-title">Мы ждем вас</li>
+               <li><p class="contact-text1">Приходите к нам:</p>
+                    <p class="contact-text2">Санкт-Петербург
+                     ул. Большая Конюшенная, 19</p> 
+               </li>
+               <li><p class="contact-text1">Режим работы:</p>
+                   <p class="contact-text2">Пн-Вск, с 9-00 до 20-00</p> 
+                </li>
+                <li><p class="contact-text1">Позвоните нам:</p>
+                    <p class="contact-text2">+ 7 (812) 983-47-19</p> 
+               </li>
+                <li><p class="contact-text1">Напишите нам:</p>
+                    <p class="contact-text2">info@botanika.ru</p> 
+                </li>
+                
+             </ul>
+          </div>
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <div class="container">
+        <img src="./img/content/logo2.svg" alt="Логотип Botanika" class="footer-logo">
+        <nav>
+            <ul class="footer-menu">
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Спецпредложения</a></li>
+                <li><a href="#">Контакты</a></li>
+            
+            </ul>
+        </nav>
+        <div class="footer-social">
+            <a href=""><img src="./img/content/instagram_icon_white.svg"></a> 
+            <a href=""><img src="./img/content/facebook_icon_white.svg"></a>
+            <a href=""><img src="./img/content/twitter_icon_white.svg"></a>
+        </div>
+        </div>
+    </footer>
+    
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ <script src="./js/main.js"></script>  
+</body>
+</html>
